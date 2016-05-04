@@ -2,7 +2,9 @@
 
 新特性：
 1.多加入了几个界面，完善了几个接口。作为毕业设计，去掉了论坛这个公司的功能。
+
 2.登录界面的数据是在Class-我-Controller-UserAccount.plist文件中 如果不清楚先使用,账号 admin 密码 admin  玩玩。
+
 3.启动图
 
 仿做喜马拉雅, 对AVFoundation框架的一次尝试
