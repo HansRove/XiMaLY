@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>admin</key>
+	<dict>
+		<key>userSex</key>
+		<false/>
+		<key>userName</key>
+		<string>华南犀牛</string>
+		<key>headPicture</key>
+		<string>http://www.lagou.com/image1/M00/16/38/Cgo8PFUM7QOAYO6VAAEPE2iomXs695.jpg</string>
+		<key>userNumber</key>
+		<string>110119120</string>
+	</dict>
+	<key>13006655183</key>
+	<dict>
+		<key>userSex</key>
+		<true/>
+		<key>userName</key>
+		<string>南柯一梦</string>
+		<key>headPicture</key>
+		<string>http://ww1.sinaimg.cn/crop.7.22.1192.1192.1024/5c6defebjw8epti0r9noaj20xc0y1n0x.jpg</string>
+		<key>userNumber</key>
+		<string>13006655183</string>
+	</dict>
+	<key>18378408783</key>
+	<dict>
+		<key>userSex</key>
+		<false/>
+		<key>userName</key>
+		<string>黄荣威</string>
+		<key>headPicture</key>
+		<string>http://g.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=7a8ee34f30fa828bc52e95b19c762a51/060828381f30e9247e29fb7b4f086e061c95f7ef.jpg</string>
+		<key>userNumber</key>
+		<string>18378408783</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+//
+//  StylePickerView.h
+//  Perfect
+//
+//  Created by jyq on 16/1/11.
+//  Copyright © 2016年 wallmum. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "SubscriptionList.h"
+@class StylePickerView;
+@protocol StylePickerViewDatasource <NSObject>
+- (NSMutableArray *)areaPickerData:(StylePickerView *)picker;
+@end
+
+@protocol StylePickerViewDelegate <NSObject>
+@optional
+- (void)pickerDidChaneStatus:(StylePickerView *)picker;
+@end
+@interface StylePickerView : UIView<UIPickerViewDelegate, UIPickerViewDataSource>
+@property (assign, nonatomic) id <StylePickerViewDelegate> delegate;
+@property (assign, nonatomic) id <StylePickerViewDatasource> datasource;
+- (id)initWithStyle:(id <StylePickerViewDelegate>)delegate andDatasource:(id <StylePickerViewDatasource>)datasource;
+- (void)showInView:(UIView *)view;
+- (void)cancelPicker;
+@property (weak, nonatomic) IBOutlet UIPickerView *myStylePicker;
+@property (weak, nonatomic) IBOutlet UIButton *doneButton;
+- (IBAction)DoneButtonAction:(id)sender;
+@property (strong, nonatomic) SubscriptionList *subscriptionListSelect;
+
+@end
